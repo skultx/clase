@@ -23,7 +23,8 @@ public class Clientes {
     
     //Contructores
 
-    public Clientes() {
+    public Clientes(String dni) {
+        this.dni = dni;
     }
 
     public Clientes(int id, String dni, String nombre, double saldo) {
